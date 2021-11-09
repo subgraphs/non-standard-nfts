@@ -1,50 +1,52 @@
 {
-    "name": "nftx-subgraph-types",
-    "author": "Nejc Drobnič <yo@quantumly.dev> (https://quantumly.dev)",
-    "version": "0.0.1",
-    "description": "",
-    "license": " BSD-3-Clause",
-    "types": "generated/ts/api.d.ts",
-    "main": "generated/ts/api.d.ts",
-    "scripts": {
-      "sversion": "standard-version",
-      "codegen": "graphql-codegen --overwrite",
-      "postcodegen": "npm-run-all --sequential typescript:** graphql:**",
-      "typescript:replace-invalid-code": "replace-in-file /}\\;/g } generated/ts/api.d.ts --isRegex",
-      "graphql:replace-query": "replace-in-file \"type Query \" \"type NFTXQuery \" generated/ts/api.graphql"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Quantumlyy/nftx-subgraph-types.git"
-    },
-    "bugs": {
-      "url": "https://github.com/Quantumlyy/nftx-subgraph-types/issues"
-    },
-    "homepage": "https://github.com/Quantumlyy/nftx-subgraph-types#readme",
-    "files": [
-      "generated/ts/api.d.ts",
-      "generated/ts/api.graphql"
-    ],
-    "dependencies": {
-      "graphql": "^15.5.1"
-    },
-    "devDependencies": {
-      "@graphql-codegen/c-sharp": "3.0.2",
-      "@graphql-codegen/c-sharp-operations": "1.19.5",
-      "@graphql-codegen/cli": "1.21.8",
-      "@graphql-codegen/introspection": "1.18.2",
-      "@graphql-codegen/java": "2.0.4",
-      "@graphql-codegen/java-apollo-android": "1.17.17",
-      "@graphql-codegen/java-resolvers": "1.18.5",
-      "@graphql-codegen/kotlin": "1.18.5",
-      "@graphql-codegen/schema-ast": "1.18.3",
-      "@graphql-codegen/typescript": "1.23.0",
-      "@graphql-codegen/typescript-operations": "1.18.4",
-      "@graphql-codegen/typescript-react-query": "1.3.5",
-      "@graphql-codegen/typescript-resolvers": "1.20.0",
-      "npm-run-all": "4.1.5",
-      "replace-in-file": "6.2.0",
-      "standard-version": "9.3.1"
-    }
+  "name": "@subgraphs/nftx",
+  "author": "Nejc Drobnič <yo@quantumly.dev> (https://quantumly.dev)",
+  "version": "0.0.1",
+  "description": "",
+  "license": " BSD-3-Clause",
+  "types": "generated/ts/api.d.ts",
+  "main": "generated/ts/api.d.ts",
+  "scripts": {
+    "sversion": "standard-version",
+    "codegen": "graphql-codegen --overwrite",
+    "postcodegen": "npm-run-all --sequential typescript:** graphql:**",
+    "typescript:replace-invalid-code": "replace-in-file /}\\;/g } generated/ts/api.d.ts --isRegex",
+    "graphql:replace-query": "replace-in-file \"type Query \" \"type NFTXQuery \" generated/ts/api.graphql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subgraphs/nftx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/subgraphs/nftx/issues"
+  },
+  "homepage": "https://github.com/subgraphs/nftx#readme",
+  "files": [
+    "generated/ts/api.d.ts",
+    "generated/ts/api.graphql"
+  ],
+  "dependencies": {
+    "graphql": "^15.5.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/c-sharp": "3.0.2",
+    "@graphql-codegen/c-sharp-operations": "1.19.5",
+    "@graphql-codegen/cli": "1.21.8",
+    "@graphql-codegen/introspection": "1.18.2",
+    "@graphql-codegen/java": "2.0.4",
+    "@graphql-codegen/java-apollo-android": "1.17.17",
+    "@graphql-codegen/java-resolvers": "1.18.5",
+    "@graphql-codegen/kotlin": "1.18.5",
+    "@graphql-codegen/schema-ast": "1.18.3",
+    "@graphql-codegen/typescript": "1.23.0",
+    "@graphql-codegen/typescript-operations": "1.18.4",
+    "@graphql-codegen/typescript-react-query": "1.3.5",
+    "@graphql-codegen/typescript-resolvers": "1.20.0",
+    "npm-run-all": "4.1.5",
+    "replace-in-file": "6.2.0",
+    "standard-version": "9.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
-  
+}
