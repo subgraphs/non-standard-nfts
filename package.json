@@ -26,25 +26,25 @@
     "generated/ts/api.graphql"
   ],
   "dependencies": {
-    "graphql": "^15.5.1"
+    "graphql": "^16.0.1"
   },
   "devDependencies": {
-    "@graphql-codegen/c-sharp": "3.0.2",
-    "@graphql-codegen/c-sharp-operations": "1.19.5",
-    "@graphql-codegen/cli": "1.21.8",
-    "@graphql-codegen/introspection": "1.18.2",
-    "@graphql-codegen/java": "2.0.4",
-    "@graphql-codegen/java-apollo-android": "1.17.17",
-    "@graphql-codegen/java-resolvers": "1.18.5",
-    "@graphql-codegen/kotlin": "1.18.5",
-    "@graphql-codegen/schema-ast": "1.18.3",
-    "@graphql-codegen/typescript": "1.23.0",
-    "@graphql-codegen/typescript-operations": "1.18.4",
-    "@graphql-codegen/typescript-react-query": "1.3.5",
-    "@graphql-codegen/typescript-resolvers": "1.20.0",
+    "@graphql-codegen/c-sharp": "4.2.0",
+    "@graphql-codegen/c-sharp-operations": "2.2.0",
+    "@graphql-codegen/cli": "2.2.2",
+    "@graphql-codegen/introspection": "2.1.0",
+    "@graphql-codegen/java": "3.2.0",
+    "@graphql-codegen/java-apollo-android": "2.2.0",
+    "@graphql-codegen/java-resolvers": "2.2.0",
+    "@graphql-codegen/kotlin": "2.2.0",
+    "@graphql-codegen/schema-ast": "2.4.0",
+    "@graphql-codegen/typescript": "2.3.1",
+    "@graphql-codegen/typescript-operations": "2.2.0",
+    "@graphql-codegen/typescript-react-query": "3.1.1",
+    "@graphql-codegen/typescript-resolvers": "2.4.0",
     "npm-run-all": "4.1.5",
-    "replace-in-file": "6.2.0",
-    "standard-version": "9.3.1"
+    "replace-in-file": "6.3.2",
+    "standard-version": "9.3.2"
   },
   "publishConfig": {
     "access": "public"
