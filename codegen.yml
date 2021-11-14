@@ -6,7 +6,6 @@ generates:
       - typescript
       - typescript-resolvers
       - typescript-operations
-      - typescript-react-query
     config:
       scalars:
         DateTime: Date

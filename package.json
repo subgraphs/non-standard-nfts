@@ -1,7 +1,7 @@
 {
   "name": "@subgraphs/nftx",
   "author": "Nejc Drobnič <yo@quantumly.dev> (https://quantumly.dev)",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "",
   "license": " BSD-3-Clause",
   "types": "generated/ts/api.d.ts",
@@ -29,18 +29,10 @@
     "graphql": "^16.0.1"
   },
   "devDependencies": {
-    "@graphql-codegen/c-sharp": "4.2.0",
-    "@graphql-codegen/c-sharp-operations": "2.2.0",
-    "@graphql-codegen/cli": "2.2.2",
     "@graphql-codegen/introspection": "2.1.0",
-    "@graphql-codegen/java": "3.2.0",
-    "@graphql-codegen/java-apollo-android": "2.2.0",
-    "@graphql-codegen/java-resolvers": "2.2.0",
-    "@graphql-codegen/kotlin": "2.2.0",
     "@graphql-codegen/schema-ast": "2.4.0",
     "@graphql-codegen/typescript": "2.3.1",
     "@graphql-codegen/typescript-operations": "2.2.0",
-    "@graphql-codegen/typescript-react-query": "3.1.1",
     "@graphql-codegen/typescript-resolvers": "2.4.0",
     "npm-run-all": "4.1.5",
     "replace-in-file": "6.3.2",
