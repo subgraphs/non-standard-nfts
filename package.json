@@ -1,7 +1,7 @@
 {
   "name": "@subgraphs/nftx",
   "author": "Nejc Drobnič <yo@quantumly.dev> (https://quantumly.dev)",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "license": " BSD-3-Clause",
   "types": "generated/ts/api.d.ts",
