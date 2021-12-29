@@ -1,7 +1,7 @@
 {
-  "name": "@subgraphs/nftx",
+  "name": "@subgraphs/eip721",
   "author": "Nejc Drobnič <yo@quantumly.dev> (https://quantumly.dev)",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "",
   "license": " BSD-3-Clause",
   "types": "generated/ts/api.d.ts",
@@ -11,16 +11,16 @@
     "codegen": "graphql-codegen --overwrite",
     "postcodegen": "npm-run-all --sequential typescript:** graphql:**",
     "typescript:replace-invalid-code": "replace-in-file /}\\;/g } generated/ts/api.d.ts --isRegex",
-    "graphql:replace-query": "replace-in-file \"type Query \" \"type NFTXQuery \" generated/ts/api.graphql"
+    "graphql:replace-query": "replace-in-file \"type Query \" \"type EIP721Query \" generated/ts/api.graphql"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/subgraphs/nftx.git"
+    "url": "git+https://github.com/subgraphs/eip721.git"
   },
   "bugs": {
-    "url": "https://github.com/subgraphs/nftx/issues"
+    "url": "https://github.com/subgraphs/eip721/issues"
   },
-  "homepage": "https://github.com/subgraphs/nftx#readme",
+  "homepage": "https://github.com/subgraphs/eip721#readme",
   "files": [
     "generated/ts/api.d.ts",
     "generated/ts/api.graphql"

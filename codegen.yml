@@ -1,5 +1,5 @@
 overwrite: true
-schema: https://thegraph-api.nftx.org/subgraphs/name/nftx-project/nftx-v2
+schema: https://api.thegraph.com/subgraphs/name/amxx/eip721-subgraph
 generates:
   ./generated/ts/api.d.ts:
     plugins:
