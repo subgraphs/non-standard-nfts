@@ -1,5 +1,5 @@
 {
-  "name": "@subgraphs/eip721",
+  "name": "@subgraphs/eip1155",
   "author": "Nejc Drobnič <yo@quantumly.dev> (https://quantumly.dev)",
   "version": "1.0.0",
   "description": "",
@@ -11,16 +11,16 @@
     "codegen": "graphql-codegen --overwrite",
     "postcodegen": "npm-run-all --sequential typescript:** graphql:**",
     "typescript:replace-invalid-code": "replace-in-file /}\\;/g } generated/ts/api.d.ts --isRegex",
-    "graphql:replace-query": "replace-in-file \"type Query \" \"type EIP721Query \" generated/ts/api.graphql"
+    "graphql:replace-query": "replace-in-file \"type Query \" \"type EIP1155Query \" generated/ts/api.graphql"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/subgraphs/eip721.git"
+    "url": "git+https://github.com/subgraphs/eip1155.git"
   },
   "bugs": {
-    "url": "https://github.com/subgraphs/eip721/issues"
+    "url": "https://github.com/subgraphs/eip1155/issues"
   },
-  "homepage": "https://github.com/subgraphs/eip721#readme",
+  "homepage": "https://github.com/subgraphs/eip1155#readme",
   "files": [
     "generated/ts/api.d.ts",
     "generated/ts/api.graphql"
