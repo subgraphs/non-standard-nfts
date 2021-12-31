@@ -1,5 +1,5 @@
 overwrite: true
-schema: https://api.thegraph.com/subgraphs/name/alexvorobiov/eip1155subgraph
+schema: https://api.thegraph.com/subgraphs/name/0xorg/non-standard-nfts
 generates:
   ./generated/ts/api.d.ts:
     plugins:
